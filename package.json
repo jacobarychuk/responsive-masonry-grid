@@ -1,0 +1,38 @@
+{
+  "name": "responsive-masonry-grid",
+  "version": "1.0.0",
+  "description": "Responsive masonry grid for React",
+  "main": "lib/responsive-masonry-grid",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobarychuk/responsive-masonry-grid.git"
+  },
+  "keywords": [
+    "react",
+    "masonry",
+    "component",
+    "grid"
+  ],
+  "author": "Jacob Arychuk (https://jacobarychuk.me)",
+  "license": "MIT",
+  "files": [
+    "package.json",
+    "README.md",
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/jacobarychuk/responsive-masonry-grid/issues"
+  },
+  "homepage": "https://github.com/jacobarychuk/responsive-masonry-grid#readme",
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-react": "^7.26.3"
+  }
+}
